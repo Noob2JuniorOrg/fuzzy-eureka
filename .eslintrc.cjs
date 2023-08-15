@@ -7,7 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
-    'prettier',
+    "prettier",
     'plugin:import/recommended',
     "plugin:jsx-a11y/recommended",
 
