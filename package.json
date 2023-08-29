@@ -19,18 +19,26 @@
     "@types/react-dom": "^18.2.6",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.44.0",
+    "eslint": "8.44.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
+    "jsx-runtime": "^1.2.0",
     "postcss": "^8.4.26",
     "postcss-cli": "^10.1.0",
-    "prettier": "^3.0.0",
+    "prettier": "^3.0.2",
+    "prettier-eslint": "^15.0.1",
     "pretty-quick": "^3.1.3",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.0"
-  }
+    "vite": "^4.4.0",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Noob2JuniorOrg/fuzzy-eureka.git",
+  "author": "YM-95 <yordan_manolov95@abv.bgl>",
+  "license": "MIT"
 }
