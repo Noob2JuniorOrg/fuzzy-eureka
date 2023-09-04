@@ -1,45 +1,38 @@
-/* eslint-env node */
 module.exports = {
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "jest": true
-  },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "plugin:prettier/recommended"
+  root: true,
+  env: { browser: true, es2020: true },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:jsx-a11y/recommended',
+    'plugin:react-hooks/recommended',
+    'prettier',
   ],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
-  "rules": {
-    'prettier/prettier': 'error',
-    "react/jsx-uses-react": "error",
-    'prettier/prettier': 'error',
-  },
-  "plugins": [
-    "react",
-    "import",
-    "prettier",
-
-  ],
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
       }
     }
-  }
+  },
+  settings: { react: { version: '18.2' } },
+  plugins: ['react', 'react-refresh', 'react-hooks', 'import', 'jsx-a11y', 'prettier'],
+  rules: {
+    'react-refresh/only-export-components': [
+      'warn',
+      { allowConstantExport: true },
+    ],
+    'prettier/prettier': 'error',
+    'jsx-a11y/autocomplete-valid': 'warn',
+    'react/jsx-uses-react': 'error',
+    'react/jsx-uses-vars': 'error',
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
 }
-

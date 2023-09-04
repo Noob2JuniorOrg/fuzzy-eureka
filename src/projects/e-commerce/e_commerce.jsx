@@ -1,5 +1,9 @@
-function ECOMMERCE() {
-  return <h1>Hello e-commerse</h1>;
+function Ecommerce() {
+  return (
+    <>
+      <h1>Hello e-commerse</h1>
+    </>
+  );
 }
 
-export default ECOMMERCE;
+export default Ecommerce;

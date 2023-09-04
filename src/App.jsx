@@ -1,7 +1,8 @@
+/* eslint-disable import/no-unresolved */
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Studio from './projects/loopStudio/studio';
-import ECOMMERCE from './projects/e-commerce/e_commerce';
+import Ecommerce from './projects/e-commerce/e_commerce';
 import Equalizer from './projects/equalizer/equalizer';
 import Tips from './projects/tipsCalculator/tips';
 import GitHubUser from './projects/githubUser/githubUser';
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/studio" element={<Studio />} />
-        <Route path="/e-commerce" element={<ECOMMERCE />} />
+        <Route path="/e-commerce" element={<Ecommerce />} />
         <Route path="/equalizer" element={<Equalizer />} />
         <Route path="/tipsCalculator" element={<Tips />} />
         <Route path="/github-user" element={<GitHubUser />} />
