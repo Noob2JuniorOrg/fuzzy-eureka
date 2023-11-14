@@ -57,7 +57,6 @@ function Landing() {
           </Link>
         </div>
       </main>
-      ;
     </>
   );
 }
