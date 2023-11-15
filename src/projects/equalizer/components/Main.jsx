@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-/* eslint-disable import/no-unresolved */
+ 
 /* eslint-disable prettier/prettier */
 import telephone from '../assets/illustration-app.png';
 import pattern from '../assets/bg-pattern-2.svg';
