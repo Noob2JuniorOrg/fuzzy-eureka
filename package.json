@@ -1,41 +1,40 @@
 {
-  "name": "vite-project",
+  "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "pretty-quick": "pretty-quick"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.1"
+    "vite-plugin-eslint": "^1.8.1"
   },
   "devDependencies": {
-    "@types/react": "^18.2.14",
-    "@types/react-dom": "^18.2.6",
-    "@vitejs/plugin-react-swc": "^3.3.2",
-    "autoprefixer": "^10.4.14",
-    "eslint": "8.44.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.45.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.1",
-    "jsx-runtime": "^1.2.0",
-    "postcss": "^8.4.26",
-    "postcss-cli": "^10.1.0",
-    "prettier": "^3.0.2",
-    "prettier-eslint": "^15.0.1",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.29",
+    "prettier": "3.0.3",
     "pretty-quick": "^3.1.3",
+    "react-router-dom": "^6.15.0",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.0",
-    "vite-plugin-eslint": "^1.8.1"
+    "vite": "^4.4.5"
   },
   "main": "index.js",
   "repository": "https://github.com/Noob2JuniorOrg/fuzzy-eureka.git",
